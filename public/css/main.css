@@ -1,247 +1,240 @@
-    body{
-        color: rgb(201, 153, 99);
-    }
-   
-    .navbar-brand{
-      text-transform: uppercase;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      letter-spacing: 2px;
-      text-shadow: 2px 1px rgb(233, 204, 171);
-      font-size: 28px;
-    }
+body{
+  color: rgb(201, 153, 99);
+}
 
-    .navbar-collapse{
-      margin-left: 50px;
-         }
+.navbar-brand{
+text-transform: uppercase;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: 2px;
+text-shadow: 2px 1px rgb(233, 204, 171);
+font-size: 28px;
+}
 
-   .navbar{
-     background-color: rgb(167, 110, 57);    
-    }
+.navbar-collapse{
+margin-left: 50px;
+   }
 
-    .navbar-nav{
-      font-size: 20px;
-    }
-   
+.navbar{
+background-color: rgb(167, 110, 57);    
+}
 
-   .btn-outline-success {
-      outline-color: rgb(233, 204, 171);
-      border-color: rgb(233, 204, 171);
-      color: rgb(233, 204, 171);
-    }
-
-    
-    .btn-outline-success:hover {
-      background-color: rgb(233, 204, 171);
-      border-color: rgb(233, 204, 171);
-    }
-
-    .mb-3 {
-      border: none;
-    }
-
-    .card-body {
-      border:rgb(167, 110, 57) solid 2px;
-    }
-
-    h2{
-      text-transform: uppercase;
-      font-size: 20px;
-      font-weight: bold;
-    }
-
-    .item {
-        background-color: rgb(247, 241, 224);
-      font-family: sans-serif;
-      padding: 15px;
-    }
-
-    .item-rot {
-      background-image: url("../img/rottweiler-2160310_640.jpg");
-      background-size: cover;
-    }
-
-    .item-rott {
-      background-image: url("../img/rottweiler-2160307_640.jpg");
-      background-size: cover;
-    }
+.navbar-nav{
+font-size: 20px;
+}
 
 
-    .item-bull {
-      background-image: url("../img/dog-2931779_640.jpg");
-      background-size: cover;
-
-    }
-
-    footer{
-        width: 100%;
-        height: 60px;
-        background-color: rgb(167, 110, 57);
-    }
-
-    .item-flex{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
-    }
-
-    .item-flex2{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-items: flex-start;
-    }
-
-    .p-flex{
-        flex-grow: 1;
-        font-size: 28px;
-            }
-
-    .btn-outline-secondary{
-      align-self: flex-end;
-    }
-
-    .contact, address{
-        display: inline-block;
-        padding: 50px;
-        box-sizing: border-box;
-    }
-
-    .btn-body{
-      border-color: rgb(167, 110, 57);
-      color: rgb(167, 110, 57);
-      background: none;
-    }
-
-    
-    .btn:hover, .btn-body:hover{
-      background-color: rgb(233, 204, 171);
-      border-color: rgb(233, 204, 171);
-      
-    }
-
-    .link-button{
-      color:rgb(167, 110, 57);
-          }
-
-    .link-button:hover{
-      color: rgb(233, 204, 171);
-    }
-
-    .form-control{
-      border-color: rgb(167, 110, 57);
-      color: rgb(167, 110, 57);
-    }
-
-    .link-contact{
-      margin: 15px 20px 0 20px;
-      list-style-type: none; 
-      font-size: 28px;
-      display: inline-block;
-      text-align: left;
-    }
-    .contact{
-      margin:0;
-      padding: 0;
-    }
-    .txt-hidden{
-      display:none;
-    }
-
-    .address{
-      margin-left: 50px;
-      padding:0;
-    }
-
-    .address-item{
-      
-      margin: 0;
-      padding: 0;
-    }
+.btn-outline-success {
+outline-color: rgb(233, 204, 171);
+border-color: rgb(233, 204, 171);
+color: rgb(233, 204, 171);
+}
 
 
+.btn-outline-success:hover {
+background-color: rgb(233, 204, 171);
+border-color: rgb(233, 204, 171);
+}
+
+.mb-3 {
+border: none;
+}
+
+.card-body {
+border:rgb(167, 110, 57) solid 2px;
+}
+
+h2{
+text-transform: uppercase;
+font-size: 20px;
+font-weight: bold;
+}
+
+.gridContainer {
+  width: 95%;
+  background-color: rgba(250, 247, 239, 0.87);
+  margin: 30px auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(145px, 2fr));
+  grid-template-rows: repeat(7, 320px);
+}
+
+.item-lg {
+  grid-column: 1 / 3;
+}
+
+.item-sm2 {
+  grid-column: 1 / 2;
+}
+
+.item-sm3 {
+  grid-column: 2 / 3;
+}
 
 
-    @media(max-width: 767px) {
-      .gridContainer {
-        width: 95%;
-        background-color: rgba(250, 247, 239, 0.87);
-        margin: 30px auto;
-        display: grid;
-        gap: 10px;
-        grid-template-columns: repeat(2, minmax(170px, 2fr));
-        grid-template-rows: repeat(7, 320px);
+.item {
+  background-color: rgb(247, 241, 224);
+font-family: sans-serif;
+padding: 15px;
+}
+
+.item-rot {
+background-image: url("../img/rottweiler-2160310_640.jpg");
+background-size: cover;
+}
+
+.item-rott {
+background-image: url("../img/rottweiler-2160307_640.jpg");
+background-size: cover;
+}
+
+
+.item-bull {
+background-image: url("../img/dog-2931779_640.jpg");
+background-size: cover;
+
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(167, 110, 57);
+}
+
+.item-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.item-flex2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-items: flex-start;
+}
+
+.p-flex{
+  flex-grow: 1;
+  font-size: 28px;
       }
 
-      .item-lg {
-        grid-column: 1 / 3;
-      }
+.btn-outline-secondary{
+align-self: flex-end;
+}
 
-      .item-sm2 {
-        grid-column: 1 / 2;
-      }
+.contact, address{
+  display: inline-block;
+  padding: 50px;
+  box-sizing: border-box;
+}
 
-      .item-sm3 {
-        grid-column: 2 / 3;
-      }
+.btn-body{
+border-color: rgb(167, 110, 57);
+color: rgb(167, 110, 57);
+background: none;
+}
+
+
+.btn:hover, .btn-body:hover{
+background-color: rgb(233, 204, 171);
+border-color: rgb(233, 204, 171);
+
+}
+
+.link-button{
+color:rgb(167, 110, 57);
     }
 
-   
-    
+.link-button:hover{
+color: rgb(233, 204, 171);
+}
 
-    
+.form-control{
+border-color: rgb(167, 110, 57);
+color: rgb(167, 110, 57);
+}
 
-    @media(min-width: 768px) {
-      .gridContainer {
-        width: 95%;
-        margin: 30px auto;
-        gap: 10px;
-        display: grid;
-        background-color:  rgba(250, 247, 239, 0.87);
-        grid-template-rows: repeat(4, 340px);
-        grid-template-columns: repeat(auto-fit, minmax(180px, 2fr));
-      }
+.link-contact{
+margin: 15px 20px 0 20px;
+list-style-type: none; 
+font-size: 28px;
+display: inline-block;
+text-align: left;
+}
+.contact{
+margin:0;
+padding: 0;
+}
+.txt-hidden{
+display:none;
+}
 
-      .item1 {
-        grid-column: 1 / 3;
-      }
+.address{
+margin-left: 50px;
+padding:0;
+}
 
-      .item2 {
-        grid-column: 3 / 4;
-      }
+.address-item{
 
-      .item3 {
-        grid-column: 4 / 5;
-      }
+margin: 0;
+padding: 0;
+}
 
-      .item4 {
-        grid-column: 1 / 2;
-      }
 
-      .item5 {
-        grid-column: 2 / 3;
-      }
 
-      .item6 {
-        grid-column: 3 / 4;
-      }
 
-      .item7 {
-        grid-column: 4 / 5;
-      }
+@media(min-width: 768px) {
+.gridContainer {
+  width: 95%;
+  margin: 30px auto;
+  gap: 10px;
+  display: grid;
+  background-color:  rgba(250, 247, 239, 0.87);
+  grid-template-rows: repeat(4, 340px);
+  grid-template-columns: repeat(auto-fit, minmax(180px, 2fr));
+}
 
-      .item8 {
-        grid-column: 1 / 3;
-      }
+.item1 {
+  grid-column: 1 / 3;
+}
 
-      .item9 {
-        grid-area: 3 / 3 / 5 / 5;
-      }
+.item2 {
+  grid-column: 3 / 4;
+}
 
-      .item10 {
-        grid-column: 1 / 3;
-        display: flex;
-        flex-direction: column;
-      }
-    }
-  
+.item3 {
+  grid-column: 4 / 5;
+}
+
+.item4 {
+  grid-column: 1 / 2;
+}
+
+.item5 {
+  grid-column: 2 / 3;
+}
+
+.item6 {
+  grid-column: 3 / 4;
+}
+
+.item7 {
+  grid-column: 4 / 5;
+}
+
+.item8 {
+  grid-column: 1 / 3;
+}
+
+.item9 {
+  grid-area: 3 / 3 / 5 / 5;
+}
+
+.item10 {
+  grid-column: 1 / 3;
+  display: flex;
+  flex-direction: column;
+}
+}
